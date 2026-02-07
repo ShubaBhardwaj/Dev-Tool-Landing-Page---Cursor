@@ -86,6 +86,9 @@ body{
 }
 
 
+main{
+    padding-top: 80px; /* height of header */
+}
 
 
 .hero_section{
@@ -482,4 +485,77 @@ body{
 .try_now h1{
     font-size: 72px;
     color: var(--text-color)
+}
+
+.highlights{
+    background-color: #1B1913;
+    margin-top: 120px;
+    height: 685px;
+    display: flex;
+    align-items: center;
+}
+
+.Recent_highlights{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 200px;
+}
+
+.highlight_text{
+    color: var(--text-color);
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.highlights_cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.highlight_card{
+    border: 0.75px solid #2a2822;
+    background-color: #201E18;
+    border-radius: 4px;
+    width: 650px;
+    height: 146.8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+.highlight_head h3{
+    color: var(--text-color);
+    font-weight: 150;
+    font-size: 16px;
+}
+
+.highligt_about p{
+    color: var(--text-light-color);
+    font-weight: 150;
+    font-size: 16px;
+}
+
+.highlight_date{
+    color: var(--text-light-color);
+    font-weight: 150;
+    font-size: 16px; 
+}
+
+.highlight_link{
+    margin-top: 20px;
+}
+
+.highlight_link a{
+    margin-top: 20px;
+    color: #F54E00;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.highlight_link a:hover{
+    color: #a83601;
 }
