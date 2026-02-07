@@ -472,6 +472,10 @@ main{
     color: #a83601;
 }
 
+.try_now_section{
+    height: 220px;
+}
+
 .try_now{
     width: 90%;
     margin: auto;
@@ -558,4 +562,125 @@ main{
 
 .highlight_link a:hover{
     color: #a83601;
+}
+
+.fotter{
+    background-color: var(--card-backgound-color);
+    margin-top: 70px;
+}
+
+.fotter_content{
+    width: 90%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.fotter_top{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 50px;
+}
+
+.fotter_coloum{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fotter_coloum h3{
+    color: var(--text-light-color);
+    font-size: 14px;
+}
+
+.footer_coloum_links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--text-color);
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.fd_left{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.fd_left p{
+    color: var(--text-light-color);
+    font-size: 14px;
+}
+
+.fd_right{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+/* THEME SWITCH GROUP */
+.theme-switch{
+    display: flex;
+    align-items: center;
+    background: #201e18;
+    border: 1px solid #2a2822;
+    border-radius: 999px;
+    padding: 4px;
+    gap: 4px;
+}
+
+/* individual icons */
+.icon-btn{
+    width: 36px;
+    height: 32px;
+    border-radius: 999px;
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* active button example */
+.icon-btn:first-child{
+    background: #2b2922;
+}
+
+/* hover */
+.icon-btn:hover{
+    background: #2b2922;
+}
+
+
+/* LANGUAGE BUTTON */
+.lang-btn{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #201e18;
+    border: 1px solid #2a2822;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.lang-btn:hover{
+    background: #2b2922;
+}
+
+/* arrow */
+.arrow{
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.fotter_down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
 }
